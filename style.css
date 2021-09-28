@@ -1,0 +1,62 @@
+.section1 {
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+
+.hye {
+  width: 50%;
+  height: 500px;
+  background-color: pink;
+}
+
+.jung a {
+  text-decoration: none;
+  color: blue;
+}
+
+.jung div span {
+  display: block;
+  padding: 3px 0;
+}
+
+.jung .new {
+  color: orange;
+}
+
+.jung h2 {
+  margin: 0;
+  padding: 0;
+  padding: 3px 0;
+}
+
+.above .a {
+  display: block;
+  font-size: 12px;
+}
+
+.above .b {
+  margin-top: 15px;
+}
+
+.above .b h3 {
+  font-size: 1rem;
+}
+
+.above .b a {
+  font-size: 0.8rem;
+}
+
+.button-box {
+  margin-top: 15px;
+}
+
+.button-box a {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.button-box {
+}

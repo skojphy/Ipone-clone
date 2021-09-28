@@ -1,0 +1,28 @@
+.hye {
+  float: left;
+  max-width: 600px;
+  position: sticky;
+}
+
+.iphone-image img {
+  width: 600px;
+}
+
+.hye .delivery {
+  display: flex;
+  flex-direction: row;
+}
+
+.delivery figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery img {
+  width: 110px;
+  background-color: red;
+}
+
+.counseling {
+  border-top: 1px solid #000;
+}

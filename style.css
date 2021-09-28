@@ -1,0 +1,47 @@
+/* 이부분은 고정 값입니다. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* son */
+.header {
+    display: flex;
+    flex-flow: column;
+}
+
+.header__wrapper {
+    display: flex;
+    order: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.nav {
+    background-color: #333;
+    padding: 0 2rem;
+    line-height: 2.5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-list * {
+    color: white;
+    text-decoration: none;
+}
